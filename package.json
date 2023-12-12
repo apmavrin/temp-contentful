@@ -1,0 +1,31 @@
+{
+  "name": "contentful",
+  "private": true,
+  "version": "0.0.0",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "ctf:codegen": "contentful-typescript-codegen --output @types/generated/contentful.d.ts"
+  },
+  "dependencies": {
+    "contentful": "9.3.5",
+    "dotenv": "^16.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.4",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^3.1.0",
+    "contentful-management": "^11.6.1",
+    "contentful-typescript-codegen": "^3.4.0",
+    "prettier": "^3.1.0",
+    "typescript": "^5.3.2",
+    "vite": "^4.2.0",
+    "vite-plugin-svgr": "^4.2.0"
+  }
+}
